@@ -1,6 +1,6 @@
 /* Base rules */
 :root * {
-    font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Dosis', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 *,
@@ -27,9 +27,9 @@ li {
 }
 
 .u-bg-brand {
-    background: #56CCF2; /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #3241a6;
+    background: -webkit-radial-gradient(center, ellipse cover, #3241a6 0,#202a6b 120%);
+    background: radial-gradient(ellipse at center, #3241a6 0,#202a6b 120%);
 }
 
 /* Section */
@@ -42,6 +42,7 @@ li {
     padding-left: 1em;
     padding-right: 1em;
 }
+
 .section-content {
     width: 100%;
 }
@@ -49,6 +50,7 @@ li {
 /* Jumbotron */
 .jumbotron-fluid h1 {
     margin-bottom: 0;
+    font-family: 'Aladin', cursive;
     font-size: 11vmin;
 }
 
