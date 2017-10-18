@@ -23,6 +23,7 @@ li {
 }
 
 .u-bg-brand {
+    min-height: 100vh;
     background: #3241a6;
     background: -webkit-radial-gradient(center, ellipse cover, #3241a6 0,#202a6b 120%);
     background: radial-gradient(ellipse at center, #3241a6 0,#202a6b 120%);
@@ -87,19 +88,20 @@ li {
 .list-grid li {
     line-height: 1.5;
 }
-#footer{
-    background-color: blue;
-    text-align: center;
-    color: red;
-    bottom: 0px;
+
+.list-grid a {
+    text-decoration: none;
+    color: #337ab7;
 }
 
-.list-grid ol{
+.list-grid a:hover,
+.list-grid a:focus {
+    text-decoration: underline;
+    color: #23527c;
+}
+
+@media only screen and (min-width: 400px) {
+  .list-grid ol {
     column-count: 3;
-}
-
-@media (max-width: 768px) {
-    .jumbotron-fluid h1 {
-        font-size: 4rem;
-    }
+  }
 }
